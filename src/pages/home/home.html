@@ -16,4 +16,9 @@
  (click)="onClick()">
  <ion-icon name="home"></ion-icon>Home
 </button>
+<ion-list>
+ <button ion-item  *ngFor="let item of items">
+  {{item}}
+ </button>
+</ion-list>
 </ion-content>
