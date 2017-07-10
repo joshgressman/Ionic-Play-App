@@ -7,17 +7,7 @@
 </ion-header>
 
 <ion-content padding>
-  <div class="gestures" (click)="onElementClicked()">
-   Click Me
-  </div>
-  <hr>
-  <div class="gestures" (tap)="onElementTapped()">
-   Tap Me
-  </div>
-  <hr>
-  <div class="gestures" (press)="onElementPress()">
-   Long Press Me
-  </div>
+  <app-touch-event></app-touch-event>
   <ion-grid>
    <ion-row>
     <ion-col col-2 >A Column</ion-col>
