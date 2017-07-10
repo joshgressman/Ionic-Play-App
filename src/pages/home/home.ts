@@ -15,4 +15,15 @@ export class HomePage {
     console.log('clicked');
   }
 
+  onElementClicked(){
+    console.log("I was clicked");
+  }
+
+  onElementTapped(){
+    console.log("I was tapped");
+  }
+
+  onElementPress(){
+    console.log("I was pressed");
+  }
 }
